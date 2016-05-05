@@ -1,0 +1,130 @@
+
+body {
+	background-color: ivory;
+}
+/*
+	************
+		=body
+	************
+*/
+
+body .wrap{
+	margin-top: 30px;
+	
+}
+
+
+/*
+	************
+		=misc
+	************
+*/
+
+.main, p,h4,ul{
+	font-family: 'Cantarell', cursive;
+	font-size: 150%;
+}
+
+
+
+
+/*
+	************
+		=header
+	************
+*/
+
+header{
+	
+	float: left;
+}
+
+header{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 250%;
+	color: black;
+
+}
+
+
+/*
+	************
+		=nav
+	************
+*/
+
+nav ul{
+	
+	float: right;
+	margin-top: 5px; 
+	position: absolute;
+
+}
+nav, ul a{
+	text-decoration: none;
+	color: #7e7e7e;
+}
+nav, ul a:hover{
+	text-decoration: underline;
+	color: rgb(0,0,0);
+}
+
+
+
+nav ul li{
+	display: inline;
+	font-family: 'Orbitron', sans-serif;
+}
+
+/*
+	************
+		=main
+	************
+*/
+
+.main{
+	
+	border-top:  solid #d1d1d1 2px;
+	border-bottom:  solid #d1d1d1 2px;
+	padding: 20px;
+	margin: 10px;
+}
+
+.main a{
+	text-decoration: none;
+	color: #7e7e7e;
+}
+.main a:hover{
+	text-decoration: underline;
+	color: rgb(0,0,0);
+}
+
+
+
+/*
+	************
+		=footer
+	************
+*/	
+
+footer{
+	
+	clear: both;
+}
+
+
+/*
+	************
+		=online
+	************
+*/	
+
+
+.online ul{
+	font-family: 'Cantarell', cursive;
+	font-size: 100%;
+	margin: 20px;
+}
+.online ul li{
+	margin: 10px;
+}
